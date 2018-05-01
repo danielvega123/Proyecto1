@@ -1,0 +1,12 @@
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\bin\Debug\SistemaBancario.exe.config
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.csprojResolveAssemblyReference.cache
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Form1.resources
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Properties.Resources.resources
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.csproj.GenerateResource.Cache
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\bin\Debug\SistemaBancario.exe
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\bin\Debug\SistemaBancario.pdb
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\bin\Debug\MySql.Data.dll
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\bin\Debug\Google.Protobuf.dll
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\bin\Debug\MySql.Data.xml
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.exe
+c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.pdb
