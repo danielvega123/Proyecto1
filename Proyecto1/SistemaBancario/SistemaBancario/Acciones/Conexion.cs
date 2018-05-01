@@ -32,9 +32,49 @@ namespace SistemaBancario.Acciones
                 MessageBox.Show("Bienvenido:\n" + credencial + "\n");
                 Acciones.Sesion.no_cuenta = nombre;
                 Acciones.Sesion.credencial = credencial;
+                con.Close();
+                return true;
             }
             con.Close();
             return false;
+        }
+
+        //p = primer
+        //s = segundo
+        //t = tercero
+        //n = nombre
+        //a = apellido
+        public int nuevoUsuario(MySqlConnection con, String pn, String sn, String tn, String pa, String sa, String ta, String dpi, String noCuenta, String monto, String correo, String pass)       
+        {
+            con.Open();
+            String query = "insert into usuario(no_cuenta,primer_nombre,segundo_nombre,tercer_nombre,primer_apellido,segundo_apellido,tercer_apellido,dpi,saldo_inicial,correo,contrasenia)" +
+                            "values(@no, @pn, @sn, @tn,@pa, @sa,@ta, @dpi, @saldo, @email, @pass);";
+            MySqlCommand cmd = new MySqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@no", Convert.ToInt64(noCuenta));
+            cmd.Parameters.AddWithValue("@pn", pn);
+            cmd.Parameters.AddWithValue("@sn", sn);
+            cmd.Parameters.AddWithValue("@tn", tn);
+            cmd.Parameters.AddWithValue("@pa", pa);
+            cmd.Parameters.AddWithValue("@sa", sa);
+            cmd.Parameters.AddWithValue("@ta", ta);
+            cmd.Parameters.AddWithValue("@dpi", dpi);
+            cmd.Parameters.AddWithValue("@saldo", Convert.ToDouble(monto));
+            cmd.Parameters.AddWithValue("@email", correo);
+            cmd.Parameters.AddWithValue("@pass", pass);
+            cmd.ExecuteNonQuery();
+
+            query = "select id_usuario from usuario where no_cuenta = @no";
+            cmd = new MySqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@no", noCuenta);
+            MySqlDataReader consultar = cmd.ExecuteReader();
+            while (consultar.Read())
+            {
+                int id = (int) consultar.GetInt32(0);
+                con.Close();
+                return id;
+            }
+            con.Close();
+            return -1;
         }
     }
 }
