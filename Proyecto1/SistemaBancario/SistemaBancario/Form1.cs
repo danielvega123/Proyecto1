@@ -32,6 +32,8 @@ namespace SistemaBancario
                 if (existe == true)
                 {
                     //PASA A LA PANTALLA DE INICIO
+                    Pantallas.Principal p = new Pantallas.Principal();
+                    p.Show();
                 }else
                 {
                     if (intentos < 3)

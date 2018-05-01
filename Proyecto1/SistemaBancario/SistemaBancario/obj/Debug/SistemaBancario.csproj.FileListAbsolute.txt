@@ -11,3 +11,4 @@ c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\S
 c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.exe
 c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.pdb
 C:\Users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Pantallas.Registro.resources
+C:\Users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Pantallas.Principal.resources
