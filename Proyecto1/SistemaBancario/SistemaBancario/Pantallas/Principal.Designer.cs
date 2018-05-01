@@ -51,6 +51,7 @@
             this.txtconsultar.TabIndex = 1;
             this.txtconsultar.Text = "Consultar Saldo";
             this.txtconsultar.UseVisualStyleBackColor = true;
+            this.txtconsultar.Click += new System.EventHandler(this.txtconsultar_Click);
             // 
             // txttransferencia
             // 

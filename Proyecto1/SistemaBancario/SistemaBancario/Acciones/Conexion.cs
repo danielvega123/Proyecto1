@@ -76,5 +76,23 @@ namespace SistemaBancario.Acciones
             con.Close();
             return -1;
         }
+
+        public double obtenerSaldo(MySqlConnection con, String nocuenta)
+        {
+            con.Open();
+            double monto = 0;
+            String query = "select saldo_inicial from usuario where no_cuenta = @no";
+            MySqlCommand cmd = new MySqlCommand(query, con);
+            cmd.Parameters.AddWithValue("@no", nocuenta);
+            MySqlDataReader consultar = cmd.ExecuteReader();
+            while (consultar.Read())
+            {
+                monto = (double)consultar.GetDouble(0);
+                con.Close();
+                return monto;
+            }
+            con.Close();
+            return monto;
+        }
     }
 }
