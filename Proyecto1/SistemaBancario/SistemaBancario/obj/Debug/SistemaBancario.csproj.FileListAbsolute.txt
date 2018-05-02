@@ -12,3 +12,17 @@ c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\S
 c:\users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.pdb
 C:\Users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Pantallas.Registro.resources
 C:\Users\gerda\onedrive\documentos\visual studio 2015\Projects\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Pantallas.Principal.resources
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\bin\Debug\SistemaBancario.exe.config
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.exe
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.pdb
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\bin\Debug\SistemaBancario.exe
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\bin\Debug\SistemaBancario.pdb
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\bin\Debug\Google.Protobuf.dll
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\bin\Debug\MySql.Data.xml
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.csprojResolveAssemblyReference.cache
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Form1.resources
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Pantallas.Principal.resources
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Pantallas.Registro.resources
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Properties.Resources.resources
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.csproj.GenerateResource.Cache
+C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Pantallas.transferencia.resources

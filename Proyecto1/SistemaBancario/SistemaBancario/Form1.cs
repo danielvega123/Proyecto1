@@ -28,14 +28,23 @@ namespace SistemaBancario
             {
                 String no_cuenta = txtuser.Text;
                 String pass = txtpass.Text;
+
+                datosSesion datos = datosSesion.instancia(no_cuenta, pass);
                 Boolean existe = con.existeUsuario(cone, pass, no_cuenta);
                 if (existe == true)
                 {
                     //PASA A LA PANTALLA DE INICIO
+
+
+
+                    MessageBox.Show("Bienvenido:\n" + Acciones.Sesion.credencial + "\n");
                     Pantallas.Principal p = new Pantallas.Principal();
                     p.Show();
-                }else
+                    this.Visible = false;
+                }
+                else
                 {
+                    datosSesion.limpia();
                     if (intentos < 3)
                     {
                         MessageBox.Show("Credenciales incorrectas");
@@ -52,6 +61,11 @@ namespace SistemaBancario
         {
             Pantallas.Registro r = new Pantallas.Registro();
             r.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

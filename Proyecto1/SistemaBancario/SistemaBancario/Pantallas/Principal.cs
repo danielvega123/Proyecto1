@@ -23,7 +23,7 @@ namespace SistemaBancario.Pantallas
 
         private void Principal_Load(object sender, EventArgs e)
         {
-
+          
         }
 
         private void txtconsultar_Click(object sender, EventArgs e)
@@ -34,6 +34,20 @@ namespace SistemaBancario.Pantallas
                 double saldo = con.obtenerSaldo(cone, Acciones.Sesion.no_cuenta);
                 MessageBox.Show("El saldo de su cuenta es : " + saldo);
             }
+        }
+
+        private void txttransferencia_Click(object sender, EventArgs e)
+        {
+            transferencia t = new transferencia();
+            t.Show();
+            this.Visible=false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 p = new Form1();
+            p.Show();
+            this.Visible = false;
         }
     }
 }

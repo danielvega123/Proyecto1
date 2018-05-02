@@ -9,7 +9,7 @@ namespace SistemaBancario.Acciones
     public static class Sesion
     {
         public static String no_cuenta;
-        public static String credencial;
+        public static String credencial, contra;
         
     }
 }
