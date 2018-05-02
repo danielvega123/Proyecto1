@@ -26,3 +26,6 @@ C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario
 C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Properties.Resources.resources
 C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.csproj.GenerateResource.Cache
 C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.Pantallas.transferencia.resources
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancario\bin\Debug\SistemaBancario.exe.config
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.exe
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancario\obj\Debug\SistemaBancario.pdb

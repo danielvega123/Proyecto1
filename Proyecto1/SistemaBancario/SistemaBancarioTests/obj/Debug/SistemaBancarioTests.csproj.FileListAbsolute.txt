@@ -10,3 +10,15 @@ C:\Users\jorge\Desktop\SistemaBancario\SistemaBancarioTests\bin\Debug\Microsoft.
 C:\Users\jorge\Desktop\SistemaBancario\SistemaBancarioTests\obj\Debug\SistemaBancarioTests.csprojResolveAssemblyReference.cache
 C:\Users\jorge\Desktop\SistemaBancario\SistemaBancarioTests\obj\Debug\SistemaBancarioTests.dll
 C:\Users\jorge\Desktop\SistemaBancario\SistemaBancarioTests\obj\Debug\SistemaBancarioTests.pdb
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\SistemaBancarioTests.dll
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\SistemaBancarioTests.pdb
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\MySql.Data.dll
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\SistemaBancario.exe
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\Google.Protobuf.dll
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\SistemaBancario.pdb
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\MySql.Data.xml
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\obj\Debug\SistemaBancarioTests.csprojResolveAssemblyReference.cache
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\obj\Debug\SistemaBancarioTests.dll
+C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario\SistemaBancarioTests\obj\Debug\SistemaBancarioTests.pdb

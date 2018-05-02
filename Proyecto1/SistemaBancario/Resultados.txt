@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="77669614-fb2d-418e-96c9-129277c723b4" name="gerda@DESKTOP-P8FBJPM 2018-04-24 12:44:33" runUser="DESKTOP-P8FBJPM\gerda" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="3fc76703-6921-49ab-b7be-9b51cef0d4ec">
+    <Deployment userDeploymentRoot="C:\Users\gerda\OneDrive\Documentos\Visual Studio 2015\Projects\Version6\SistemaBancario" useDefaultDeploymentRoot="false" runDeploymentRoot="gerda_DESKTOP-P8FBJPM 2018-04-24 12_44_33" />
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Properties />
+  </TestSettings>
+  <Times creation="2018-04-24T12:44:33.7855305-06:00" queuing="2018-04-24T12:44:35.6544606-06:00" start="2018-04-24T12:44:35.9540544-06:00" finish="2018-04-24T12:44:46.4535580-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="5" executed="5" passed="4" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="nuevoUsuarioTest" storage="c:\users\gerda\onedrive\documentos\visual studio 2015\projects\version6\sistemabancario\sistemabancariotests\bin\debug\sistemabancariotests.dll" id="6eb7c25a-dcf0-ba0a-9613-cb9311319eaa">
+      <Execution id="90a6a025-1173-4e10-89e2-fdd28188c605" />
+      <TestMethod codeBase="C:/Users/gerda/OneDrive/Documentos/Visual Studio 2015/Projects/Version6/SistemaBancario/SistemaBancarioTests/bin/Debug/SistemaBancarioTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaBancario.Acciones.Tests.ConexionTests, SistemaBancarioTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="nuevoUsuarioTest" />
+    </UnitTest>
+    <UnitTest name="transaccionTest" storage="c:\users\gerda\onedrive\documentos\visual studio 2015\projects\version6\sistemabancario\sistemabancariotests\bin\debug\sistemabancariotests.dll" id="7a65248c-540f-bfd8-ebb5-a5f152926524">
+      <Execution id="2f8be65a-53c2-45fa-8ab2-84a349d1de1c" />
+      <TestMethod codeBase="C:/Users/gerda/OneDrive/Documentos/Visual Studio 2015/Projects/Version6/SistemaBancario/SistemaBancarioTests/bin/Debug/SistemaBancarioTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaBancario.Acciones.Tests.ConexionTests, SistemaBancarioTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="transaccionTest" />
+    </UnitTest>
+    <UnitTest name="obtenerSaldoTest" storage="c:\users\gerda\onedrive\documentos\visual studio 2015\projects\version6\sistemabancario\sistemabancariotests\bin\debug\sistemabancariotests.dll" id="d56cdb80-9044-138b-73cc-f254dddc32fc">
+      <Execution id="86f1f5be-8f5e-4dc4-bf10-562fb4c035ad" />
+      <TestMethod codeBase="C:/Users/gerda/OneDrive/Documentos/Visual Studio 2015/Projects/Version6/SistemaBancario/SistemaBancarioTests/bin/Debug/SistemaBancarioTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaBancario.Acciones.Tests.ConexionTests, SistemaBancarioTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="obtenerSaldoTest" />
+    </UnitTest>
+    <UnitTest name="existeCuentaTest" storage="c:\users\gerda\onedrive\documentos\visual studio 2015\projects\version6\sistemabancario\sistemabancariotests\bin\debug\sistemabancariotests.dll" id="f2a51287-90f7-2eb2-c6d4-720c93a469e1">
+      <Execution id="128746c4-69f5-4de1-9daf-d509d8d6ab6b" />
+      <TestMethod codeBase="C:/Users/gerda/OneDrive/Documentos/Visual Studio 2015/Projects/Version6/SistemaBancario/SistemaBancarioTests/bin/Debug/SistemaBancarioTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaBancario.Acciones.Tests.ConexionTests, SistemaBancarioTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="existeCuentaTest" />
+    </UnitTest>
+    <UnitTest name="existeUsuarioTest" storage="c:\users\gerda\onedrive\documentos\visual studio 2015\projects\version6\sistemabancario\sistemabancariotests\bin\debug\sistemabancariotests.dll" id="77c85f2c-5077-00a9-c834-fe7da6cd274a">
+      <Execution id="83a96616-d92f-4ca7-a61f-4e64f0a253de" />
+      <TestMethod codeBase="C:/Users/gerda/OneDrive/Documentos/Visual Studio 2015/Projects/Version6/SistemaBancario/SistemaBancarioTests/bin/Debug/SistemaBancarioTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="SistemaBancario.Acciones.Tests.ConexionTests, SistemaBancarioTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="existeUsuarioTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="f2a51287-90f7-2eb2-c6d4-720c93a469e1" executionId="128746c4-69f5-4de1-9daf-d509d8d6ab6b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77c85f2c-5077-00a9-c834-fe7da6cd274a" executionId="83a96616-d92f-4ca7-a61f-4e64f0a253de" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6eb7c25a-dcf0-ba0a-9613-cb9311319eaa" executionId="90a6a025-1173-4e10-89e2-fdd28188c605" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d56cdb80-9044-138b-73cc-f254dddc32fc" executionId="86f1f5be-8f5e-4dc4-bf10-562fb4c035ad" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a65248c-540f-bfd8-ebb5-a5f152926524" executionId="2f8be65a-53c2-45fa-8ab2-84a349d1de1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="128746c4-69f5-4de1-9daf-d509d8d6ab6b" testId="f2a51287-90f7-2eb2-c6d4-720c93a469e1" testName="existeCuentaTest" computerName="DESKTOP-P8FBJPM" duration="00:00:02.7411654" startTime="2018-04-24T12:44:36.1500298-06:00" endTime="2018-04-24T12:44:39.5433964-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="128746c4-69f5-4de1-9daf-d509d8d6ab6b">
+    </UnitTestResult>
+    <UnitTestResult executionId="83a96616-d92f-4ca7-a61f-4e64f0a253de" testId="77c85f2c-5077-00a9-c834-fe7da6cd274a" testName="existeUsuarioTest" computerName="DESKTOP-P8FBJPM" duration="00:00:00.8726463" startTime="2018-04-24T12:44:39.5746377-06:00" endTime="2018-04-24T12:44:40.4596516-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83a96616-d92f-4ca7-a61f-4e64f0a253de">
+    </UnitTestResult>
+    <UnitTestResult executionId="90a6a025-1173-4e10-89e2-fdd28188c605" testId="6eb7c25a-dcf0-ba0a-9613-cb9311319eaa" testName="nuevoUsuarioTest" computerName="DESKTOP-P8FBJPM" duration="00:00:00.3656947" startTime="2018-04-24T12:44:40.4596516-06:00" endTime="2018-04-24T12:44:40.8287850-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="90a6a025-1173-4e10-89e2-fdd28188c605">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method SistemaBancario.Acciones.Tests.ConexionTests.nuevoUsuarioTest threw exception: 
+MySql.Data.MySqlClient.MySqlException: Duplicate entry '555' for key 'no_cuenta'</Message>
+          <StackTrace>    en MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   en MySql.Data.MySqlClient.NativeDriver.GetResult(Int32&amp; affectedRow, Int64&amp; insertedId)
+   en MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32&amp; affectedRows, Int64&amp; insertedId)
+   en MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   en MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   en MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   en SistemaBancario.Acciones.Conexion.nuevoUsuario(MySqlConnection con, String pn, String sn, String tn, String pa, String sa, String ta, String dpi, String noCuenta, String monto, String correo, String pass) en C:\Users\jorge\Desktop\SistemaBancario\SistemaBancario\Acciones\Conexion.cs:línea 65
+   en SistemaBancario.Acciones.Tests.ConexionTests.nuevoUsuarioTest() en C:\Users\jorge\Desktop\SistemaBancario\SistemaBancarioTests\Acciones\ConexionTests.cs:línea 41
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="86f1f5be-8f5e-4dc4-bf10-562fb4c035ad" testId="d56cdb80-9044-138b-73cc-f254dddc32fc" testName="obtenerSaldoTest" computerName="DESKTOP-P8FBJPM" duration="00:00:01.7484202" startTime="2018-04-24T12:44:40.8443932-06:00" endTime="2018-04-24T12:44:42.5974810-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="86f1f5be-8f5e-4dc4-bf10-562fb4c035ad">
+    </UnitTestResult>
+    <UnitTestResult executionId="2f8be65a-53c2-45fa-8ab2-84a349d1de1c" testId="7a65248c-540f-bfd8-ebb5-a5f152926524" testName="transaccionTest" computerName="DESKTOP-P8FBJPM" duration="00:00:03.6694625" startTime="2018-04-24T12:44:42.5974810-06:00" endTime="2018-04-24T12:44:46.2844981-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2f8be65a-53c2-45fa-8ab2-84a349d1de1c">
+    </UnitTestResult>
+  </Results>
+</TestRun>
