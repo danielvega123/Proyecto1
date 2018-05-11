@@ -96,14 +96,8 @@ namespace SistemaBancario.Acciones.Tests
             double validar = con.obtenerSaldo(cone, "88585858");
 
             //ASSERT
-            Assert.AreEqual(-1, validar);
+            Assert.AreNotEqual(-1, validar);
 
-            //SEGUNDA VALIDACION:
-
-            validar = con.obtenerSaldo(cone, "81038103");
-
-            //ASSERT
-            Assert.AreEqual(-1, validar);
         }
     }
 }
