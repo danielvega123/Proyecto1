@@ -19,7 +19,7 @@ namespace SistemaBancario.Acciones.Tests
             Conexion con = new Conexion();
             MySqlConnection cone = con.obtenerConexion();
             //VALIDAR ID Y CONTRASEÑA
-            bool validar = con.existeUsuario(cone, "8888", "88585858");
+            bool validar = con.existeUsuario(cone, "8888", "8282828282828282828282");
 
             //ASSERT
             //Assert.AreEqual(false,validar);
