@@ -41,7 +41,7 @@ namespace SistemaBancario.Acciones.Tests
             int validar = con.nuevoUsuario(cone, "juan", "paco", "pedro", "delamar", "me", "llamoyo", "56556", "5555", "500", "correo", "1234");
             
             //REGISTRO CORRECTO
-            Assert.AreNotEqual(validar, -1);
+            Assert.AreNotEqual(validar, 1);
         }
 
         [TestMethod()]
@@ -103,7 +103,7 @@ namespace SistemaBancario.Acciones.Tests
             validar = con.obtenerSaldo(cone, "81038103");
 
             //ASSERT
-            Assert.AreNotEqual(-1, validar);
+            Assert.AreEqual(-1, validar);
         }
     }
 }
