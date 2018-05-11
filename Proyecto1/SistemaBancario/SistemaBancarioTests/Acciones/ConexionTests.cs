@@ -50,17 +50,17 @@ namespace SistemaBancario.Acciones.Tests
             Conexion con = new Conexion();
             MySqlConnection cone = con.obtenerConexion();
             //VALIDAR ID 
-            bool validar = con.existeCuenta(cone, "88585858");
+            bool validar = con.existeCuenta(cone, "789456123789456132789");
 
             //ASSERT
-            Assert.AreEqual(false, validar);
+            Assert.AreEqual(true, validar);
 
             //SEGUNDA VALIDACION:
 
-            validar = con.existeCuenta(cone, "81038103");
+           // validar = con.existeCuenta(cone, "81038103");
 
             //ASSERT
-            Assert.AreEqual(validar, true);
+            //Assert.AreEqual(validar, true);
         }
 
         [TestMethod()]
