@@ -15,6 +15,8 @@ namespace SistemaBancario.Acciones
         {
             MySqlConnection conexion = new MySqlConnection(cadena);
             return conexion;
+
+            //AGREGAR PERFIL :(
         }        
 
         public Boolean existeUsuario(MySqlConnection con, String password, String no_cuenta)
