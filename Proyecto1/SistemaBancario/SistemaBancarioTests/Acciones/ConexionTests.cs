@@ -26,10 +26,10 @@ namespace SistemaBancario.Acciones.Tests
 
             //SEGUNDA VALIDACION:
 
-            validar = con.existeUsuario(cone, "8103", "81038103");
+            //validar = con.existeUsuario(cone, "8103", "81038103");
 
             //ASSERT
-            Assert.AreEqual(validar, true);
+            Assert.AreEqual(false, true);
         }
 
         [TestMethod()]
